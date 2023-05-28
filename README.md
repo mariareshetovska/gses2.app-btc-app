@@ -48,3 +48,4 @@ This will build and start the Docker containers required for the application.
 - The application uses the specified third-party API to retrieve the exchange rate. Make sure the API is accessible and functioning correctly.
 - The email server configuration should be provided in the .env file for the email subscription and notification functionality to work properly.
 - For development, the application utilizes the CoinMarketCap API for retrieving the exchange rate of Bitcoin (BTC) in Ukrainian Hryvnia (UAH). For more information about the CoinMarketCap API [here](https://coinmarketcap.com/api/ "here")
+- In package **responses_images** are example screenshots showcasing the API responses
