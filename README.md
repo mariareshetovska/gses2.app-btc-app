@@ -8,7 +8,7 @@ This is a GSES2 BTC application that provides an API for retrieving the current 
 
 2. Install Golang if it is not already installed.
 
-2. Create a .env file in the root directory of the project and add the following variables. For example:
+3. Create a .env file in the root directory of the project and add the following variables. For example:
     
         EMAIL_HOST="smtp.gmail.com"
         EMAIL_PORT= <port>
@@ -16,7 +16,8 @@ This is a GSES2 BTC application that provides an API for retrieving the current 
         EMAIL_PASSWORD= <password>
     
 Replace  **EMAIL_PORT**,  **EMAIL_EMAIL**, and  **EMAIL_PASSWORD** with your own email server configuration.
-3. Start aplication with Docker:
+
+4. Start aplication with Docker:
      
 	   docker-compose up
 	 
