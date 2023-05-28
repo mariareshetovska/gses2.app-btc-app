@@ -10,14 +10,6 @@ import (
 	"gses2.app-btc/services"
 )
 
-// @Summary SubscribeEmail
-// @Tags Subscription
-// @Description Send an e-mail with the current rate to all subscribed e-mails
-// @Produce json
-// @Success 200
-// @Failure 400
-// @Failure 500
-// @Router /subscribe [post]
 func SubscribeHandler(w http.ResponseWriter, r *http.Request) {
 	var requestData services.Record
 

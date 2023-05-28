@@ -7,13 +7,6 @@ import (
 	"gses2.app-btc/services"
 )
 
-// @Summary GetRate
-// @Tags Rate
-// @Description Get the current BTC to UAH rate
-// @Produce json
-// @Success 200
-// @Failure 400
-// @Router /rate [get]
 func GetRateHandler(w http.ResponseWriter, r *http.Request) {
 	price, err := services.GetBitcoinRate()
 	if err != nil {

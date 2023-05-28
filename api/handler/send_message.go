@@ -8,14 +8,6 @@ import (
 	"net/http"
 )
 
-// @Summary SendEmails
-// @Tags Subscription
-// @Description Send an e-mail with the current rate to all subscribed e-mails
-// @Produce json
-// @Success 200
-// @Failure 400
-// @Failure 500
-// @Router /sendEmails [post]
 const (
 	csvFilename    = "database.csv"
 	templatePath   = "./email.html"
